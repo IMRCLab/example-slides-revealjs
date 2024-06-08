@@ -1,0 +1,11 @@
+{
+    "runOnSave.statusMessageTimeout": 3000,
+    "runOnSave.commands": [
+        {
+            // Match less files except names start with `_`.
+            "globMatch": "**/pandoc-revealjs.md",
+            "command": "${fileDirname}/run-pandoc.sh",
+            "runIn": "terminal"
+        }
+    ]
+}

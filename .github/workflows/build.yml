@@ -1,0 +1,43 @@
+name: Build and upload slides
+
+on:
+  # # every midnight
+  # schedule:
+  #   - cron:  '0 0 * * *'
+  # manual trigger
+  workflow_dispatch:
+  # push
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v4
+      
+      - name: Install pandoc
+        run: |
+          wget https://github.com/jgm/pandoc/releases/download/3.2/pandoc-3.2-1-amd64.deb
+          sudo dpkg -i pandoc-3.2-1-amd64.deb
+
+      - name: Create pandoc slides
+        run: |
+          chmod +x run-pandoc.sh
+          ./run-pandoc.sh --embed-resources --standalone
+
+      - name: Convert revealjs slides to pdf
+        run: |
+          docker run --user root --rm -t -v `pwd`:/slides astefanutti/decktape slides.html slides.pdf
+
+      - name: Upload PDFs
+        uses: actions/upload-artifact@v4
+        with:
+          name: Slides
+          path: |
+            **/*.pdf
+            **/*.html
+            !**/images/**
+          if-no-files-found: error

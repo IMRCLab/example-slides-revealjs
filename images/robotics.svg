@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="180.49124mm"
+   height="120.2011mm"
+   viewBox="0 0 180.49124 120.2011"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="robotics.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.90509668"
+     inkscape:cx="289.47184"
+     inkscape:cy="272.3466"
+     inkscape:window-width="2490"
+     inkscape:window-height="1376"
+     inkscape:window-x="70"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="estimation" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path58882" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path58876" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path58873" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path58882-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-6-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path58882-0-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-6-0-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path58882-0-1-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path58882-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-7-4"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path58882-2-5" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-7.200438,-58.573254)">
+    <g
+       id="actuation"
+       inkscape:label="actuation">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-7)"
+         d="m 35.602374,125.43187 c -0.09741,-11.41924 0.227908,-3.26138 0.219138,-12.68965"
+         id="path58122-6"
+         sodipodi:nodetypes="cc" />
+      <rect
+         style="fill:#b3b3b3;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+         id="rect846"
+         width="58.492447"
+         height="18.868851"
+         x="7.450438"
+         y="125.74485"
+         ry="5.1499715" />
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';word-spacing:0px;stroke-width:0.264583"
+         x="11.684996"
+         y="138.57872"
+         id="text13126"><tspan
+           sodipodi:role="line"
+           id="tspan13124"
+           style="stroke-width:0.264583"
+           x="11.684996"
+           y="138.57872">Actuation</tspan></text>
+    </g>
+    <g
+       id="perception"
+       inkscape:label="perception">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-6)"
+         d="m 129.2084,68.06208 c 20.66668,0.468962 31.94006,3.639063 32.2545,22.296263"
+         id="path58122-7"
+         sodipodi:nodetypes="cc" />
+      <rect
+         style="fill:#b3b3b3;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+         id="rect846-3"
+         width="58.492447"
+         height="18.868851"
+         x="70.518936"
+         y="58.823254"
+         ry="5.1499715" />
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';word-spacing:0px;stroke-width:0.264583"
+         x="72.560089"
+         y="70.311836"
+         id="text13126-1"><tspan
+           sodipodi:role="line"
+           id="tspan13124-1"
+           style="stroke-width:0.264583"
+           x="72.560089"
+           y="70.311836">Perception</tspan></text>
+    </g>
+    <g
+       id="physics"
+       inkscape:label="physics">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+         d="M 37.795969,92.931455 C 37.698563,81.512213 46.503442,66.868076 69.293391,67.108898"
+         id="path58122"
+         sodipodi:nodetypes="cc" />
+      <rect
+         style="fill:#b3b3b3;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+         id="rect846-9"
+         width="58.492447"
+         height="18.868851"
+         x="8.3863621"
+         y="92.506897"
+         ry="5.1499715" />
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';word-spacing:0px;stroke-width:0.264583"
+         x="19.083284"
+         y="105.34052"
+         id="text13126-0"><tspan
+           sodipodi:role="line"
+           id="tspan13124-5"
+           style="stroke-width:0.264583"
+           x="19.083284"
+           y="105.34052">Physics</tspan></text>
+    </g>
+    <g
+       id="estimation"
+       inkscape:label="estimation">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-7-4)"
+         d="m 161.8699,110.82783 c -0.0974,11.41924 0.22791,3.26138 0.21914,12.68965"
+         id="path58122-6-2"
+         sodipodi:nodetypes="cc" />
+      <rect
+         style="fill:#b3b3b3;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+         id="rect846-6"
+         width="58.492447"
+         height="18.868851"
+         x="128.94923"
+         y="92.211166"
+         ry="5.1499715" />
+      <text
+         xml:space="preserve"
+         style="font-size:9.87778px;line-height:1;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';word-spacing:0px;stroke-width:0.264583"
+         x="131.95093"
+         y="99.897354"
+         id="text13126-7"><tspan
+           sodipodi:role="line"
+           id="tspan13124-7"
+           style="font-size:9.87778px;stroke-width:0.264583"
+           x="131.95093"
+           y="99.897354">State</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:9.87778px;stroke-width:0.264583"
+           x="131.95093"
+           y="109.77513"
+           id="tspan27480">Estimation</tspan></text>
+    </g>
+    <g
+       id="planning"
+       inkscape:label="planning">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-6-0)"
+         d="m 161.36828,144.72378 c 0.96022,20.78879 -10.91878,23.93183 -32.75849,24.60904"
+         id="path58122-7-0"
+         sodipodi:nodetypes="cc" />
+      <rect
+         style="fill:#b3b3b3;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+         id="rect846-6-2"
+         width="58.492447"
+         height="18.868851"
+         x="128.91533"
+         y="125.11335"
+         ry="5.1499715" />
+      <text
+         xml:space="preserve"
+         style="font-size:9.87778px;line-height:1;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';word-spacing:0px;stroke-width:0.264583"
+         x="136.34613"
+         y="137.07996"
+         id="text13126-7-6"><tspan
+           sodipodi:role="line"
+           style="font-size:9.87778px;stroke-width:0.264583"
+           x="136.34613"
+           y="137.07996"
+           id="tspan27480-6">Planning</tspan></text>
+    </g>
+    <g
+       id="control"
+       inkscape:label="control"
+       style="display:inline"
+       clip-path="none">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-6-0-1)"
+         d="m 67.772226,169.85677 c -20.78879,0.96022 -34.558894,-2.5924 -35.236104,-24.43211"
+         id="path58122-7-0-7"
+         sodipodi:nodetypes="cc" />
+      <rect
+         style="fill:#b3b3b3;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+         id="rect846-6-2-6"
+         width="58.492447"
+         height="18.868851"
+         x="68.57402"
+         y="159.6555"
+         ry="5.1499715" />
+      <text
+         xml:space="preserve"
+         style="font-size:9.87778px;line-height:1;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';word-spacing:0px;stroke-width:0.264583"
+         x="76.004822"
+         y="171.62212"
+         id="text13126-7-6-4"><tspan
+           sodipodi:role="line"
+           style="font-size:9.87778px;stroke-width:0.264583"
+           x="76.004822"
+           y="171.62212"
+           id="tspan27480-6-6">Control</tspan></text>
+    </g>
+  </g>
+</svg>
