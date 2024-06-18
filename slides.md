@@ -2,10 +2,12 @@
 title: Slide Examples
 subtitle: Pandoc revealjs
 author: Wolfgang Hönig
-date: November, 2023
+date: June, 2024
+
+theme: black # white
 
 title-slide-attributes:
-    data-background-image: images/title.svg
+    data-background-image: media/title2.svg
     data-background-size: contain
 
 minScale: 0.2
@@ -88,7 +90,7 @@ text
 
 ## Picture
 
-![](images/robotics.svg)
+![](media/robotics.svg)
 
 ## Math
 
@@ -104,16 +106,17 @@ $$
 ## Video
 
 ```{=html}
-<video data-autoplay src="videos/cubic-bezier.mp4"></video>
+<video data-autoplay src="media/cubic-bezier.mp4"></video>
 ```
 
-<!-- Full screen video -->
+<!-- Full screen video (Version 1)-->
+## {data-background-video="media/cubic-bezier.mp4"}
+<!-- Full screen video (Version 2)-->
 ## 
 
 ```{=html}
 <video data-autoplay src="videos/cubic-bezier.mp4" width="100%"></video>
 ```
-
 ## Source Code
 
 ```python
@@ -184,10 +187,10 @@ Box2
 
 ::: {.r-stack}
 :::: {.fragment .current-visible}
-![](images/robotics.svg)
+![](media/robotics.svg)
 ::::
 :::: {.fragment .current-visible}
-![](images/robotics.svg)
+![](media/robotics.svg)
 ::::
 :::
 
