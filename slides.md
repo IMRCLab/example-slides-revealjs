@@ -7,7 +7,7 @@ date: June, 2024
 theme: black # white
 
 title-slide-attributes:
-    data-background-image: media/title2.svg
+    data-background-image: media/title_dark.svg
     data-background-size: contain
 
 minScale: 0.2
@@ -115,7 +115,7 @@ $$
 ## 
 
 ```{=html}
-<video data-autoplay src="videos/cubic-bezier.mp4" width="100%"></video>
+<video data-autoplay src="media/cubic-bezier.mp4" width="100%"></video>
 ```
 ## Source Code
 
