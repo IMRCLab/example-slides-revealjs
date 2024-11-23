@@ -4,8 +4,9 @@ subtitle: Pandoc revealjs
 author: Wolfgang Hönig
 date: June, 2024
 
-theme: black # white
+bibliography: references.bib
 
+theme: black # white
 title-slide-attributes:
     data-background-image: media/title_dark.svg
     data-background-size: contain

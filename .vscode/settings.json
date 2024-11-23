@@ -3,8 +3,9 @@
     "runOnSave.commands": [
         {
             // Match less files except names start with `_`.
-            "globMatch": "**/pandoc-revealjs.md",
-            "command": "${fileDirname}/run-pandoc.sh",
+            "globMatch": "**/*.md",
+            "notMatch": "README.md",
+            "command": "${fileDirname}/run-pandoc.sh ${fileDirname}/${fileBasenameNoExtension}",
             "runIn": "terminal"
         }
     ]
