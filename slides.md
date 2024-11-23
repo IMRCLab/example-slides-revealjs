@@ -118,6 +118,14 @@ $$
 ```{=html}
 <video data-autoplay src="media/cubic-bezier.mp4" width="100%"></video>
 ```
+
+## YouTube Example
+
+```{=html}
+<iframe width="1600" height="500" src="https://www.youtube-nocookie.com/embed/Rkj1_gwrtAg?rel=0&autoplay=1&mute=1&start=30" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+```
+[YouTube](https://youtu.be/Rkj1_gwrtAg)
+
 ## Source Code
 
 ```python
