@@ -26,11 +26,13 @@ jobs:
       - name: Create pandoc slides
         run: |
           chmod +x run-pandoc.sh
-          ./run-pandoc.sh --embed-resources --standalone
+          ./run-pandoc.sh slides
+          ./run-pandoc.sh slides2
 
       - name: Convert revealjs slides to pdf
         run: |
           docker run --user root --rm -t -v `pwd`:/slides astefanutti/decktape slides.html slides.pdf
+          docker run --user root --rm -t -v `pwd`:/slides astefanutti/decktape slides2.html slides2.pdf
 
       - name: Upload PDFs
         uses: actions/upload-artifact@v4
@@ -39,5 +41,5 @@ jobs:
           path: |
             **/*.pdf
             **/*.html
-            !**/images/**
+            media/
           if-no-files-found: error
