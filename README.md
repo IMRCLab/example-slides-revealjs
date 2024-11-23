@@ -5,13 +5,7 @@ Develop locally using VSCode and "Run on Save" by "pucelle" extension to run pan
 
 ## Present
 
-* Make sure to generate a *standalone* HTML, since the default one requires internet to load styles etc. This is done by github actions, or by using:
-
-```
-./run-pandoc.sh --embed-resources --standalone
-```
-
-Note that this will embed all media files including videos, so only the HTML file is needed for presenting.
+* Make sure to copy all files (including media and reveal.js folder) when presenting on another computer
 
 * There is a presenter mode, but it only works when using the "Live Server" (not when just opening the html file in the browser):
 

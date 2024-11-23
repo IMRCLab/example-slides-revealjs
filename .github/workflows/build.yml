@@ -42,4 +42,5 @@ jobs:
             **/*.pdf
             **/*.html
             media/
+            reveal.js/
           if-no-files-found: error
