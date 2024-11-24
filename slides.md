@@ -18,6 +18,12 @@ navigationMode: 'linear'
 controls: false
 ---
 
+## Math definitions {visibility="hidden"}
+
+% vectors
+\newcommand{\vq}{\mathbf{q}}    % generic state
+\newcommand{\vu}{\mathbf{u}}    % control/action q
+
 # Layout
 
 ## Lists
@@ -97,10 +103,10 @@ text
 
 $$
 \begin{align}
-\arg\min_{T, u(t), q(t)} \quad J(T, u(t), q(t)) \quad \text{s.t.}\\
-q(0) = q_{start} \quad q(T) = q_{goal}\\
-\mathcal{B}(q(t)) \subset \mathcal{W}_{free} \quad \forall t \in [0, T]\\
-\dot q(t) = f(q(t), u(t)) \quad \forall t \in [0, T)
+\arg\min_{T, \vu(t), \vq(t)} \quad J(T, \vu(t), \vq(t)) \quad \text{s.t.}\\
+\vq(0) = \vq_{start} \quad \vq(T) = \vq_{goal}\\
+\mathcal{B}(\vq(t)) \subset \mathcal{W}_{free} \quad \forall t \in [0, T]\\
+\mathbf{\dot{q}}(t) = f(\vq(t), \vu(t)) \quad \forall t \in [0, T)
 \end{align}
 $$
 
