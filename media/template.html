@@ -18,6 +18,7 @@ $endif$
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
   <link rel="stylesheet" href="$revealjs-url$/dist/reset.css">
   <link rel="stylesheet" href="$revealjs-url$/dist/reveal.css">
+  <link rel="stylesheet" href="media/plugin/pointer/pointer.css" />
   <style>
     .reveal .sourceCode {  /* see #7635 */
       overflow: visible;
@@ -87,6 +88,7 @@ $body$
 $if(mathjax)$
   <script src="$revealjs-url$/plugin/math/math.js"></script>
 $endif$
+  <script src="media/plugin/pointer/pointer.js"></script>
 
   <script>
 
@@ -310,7 +312,8 @@ $if(mathjax)$
 $endif$
           RevealNotes,
           RevealSearch,
-          RevealZoom
+          RevealZoom,
+          RevealPointer
         ]
       });
     </script>
